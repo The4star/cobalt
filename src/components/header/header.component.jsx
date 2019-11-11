@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router-dom'
+import { connect } from 'react-redux';
+
 import './header.styles.scss'
 
 const Header = ({ currentUser, history, signOut}) => (
@@ -37,4 +39,8 @@ const Header = ({ currentUser, history, signOut}) => (
     </div>
 )
 
-export default withRouter(Header);
+const mapStateToProps = (state) => ({
+    currentUser: state.user.currentUser
+});
+
+export default connect(mapStateToProps)(withRouter(Header));

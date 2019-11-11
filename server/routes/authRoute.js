@@ -65,14 +65,14 @@ router.get('/user', async (req, res, next) => {
             const user = await User.findById(req.user._id);
             const { firstName, lastName, email } = user;
             res.send({ 
-                user: true,
+                loggedIn: true,
                 firstName, 
                 lastName, 
                 email
              })
         } else {
             res.send({
-                user:false
+                loggedIn:false
             })
         }
     } catch (error) {
