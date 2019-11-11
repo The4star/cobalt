@@ -14,7 +14,7 @@ class App extends React.Component {
   }
   
   getUser = async () => {
-    const  { setCurrentUser } = this.props;
+    const { setCurrentUser } = this.props;
     const response = await axios.get('/user')
     const user = response.data
     if (user.loggedIn === true) {
@@ -37,7 +37,7 @@ class App extends React.Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  setCurrentUser: user => dispatch(setCurrentUser(user))
+  setCurrentUser: (user) => dispatch(setCurrentUser(user))
 });
 
 export default connect(null, mapDispatchToProps)(App);

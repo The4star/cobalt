@@ -4,13 +4,34 @@
     flex-direction: column;
     height: 350px;
     align-items: center;
+    position: relative;
   
+  &:hover {
+    cursor: pointer;
+    .image{
+      opacity: .8;
+    }
+
+    .custom-button {
+      display: flex;
+      opacity: 0.85;
+    }
+  }
+
     .image {
       width: 100%;
       height: 95%;
       background-size: cover;
       background-position: center;
       margin-bottom: 5px;
+    }
+
+    .custom-button {
+      position: absolute;
+      width: 80%;
+      opacity: .7;
+      top: 255px;
+      display: none;
     }
   
     .collection-footer {
