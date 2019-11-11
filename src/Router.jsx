@@ -11,7 +11,7 @@ import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up
 
 const Router = ({currentUser, signOut, getUser}) => (
     <>
-        <Header currentUser={currentUser ? currentUser : null} signOut={signOut}/>
+        <Header signOut={signOut}/>
         <Switch>
             <Route exact path='/' component={Homepage} />
             <Route exact path='/shop' component={ShopPage} />
