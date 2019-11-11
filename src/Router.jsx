@@ -1,5 +1,6 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 // pages
 import Homepage from './pages/homepage/Homepage.component'
@@ -15,9 +16,13 @@ const Router = ({currentUser, signOut, getUser}) => (
         <Switch>
             <Route exact path='/' component={Homepage} />
             <Route exact path='/shop' component={ShopPage} />
-            <Route path='/signin' render={ () => <SignInAndSignUpPage getUser={getUser}/>}  />
+            <Route exact path='/signin' render={ () => currentUser ? <Redirect to='/' /> : <SignInAndSignUpPage getUser={getUser}/> }  />
         </Switch>
     </>
 )
 
-export default Router;
+const mapStateToProps = ({ user }) => ({
+    currentUser: user.currentUser
+})
+
+export default connect(mapStateToProps)(Router);

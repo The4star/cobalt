@@ -48,7 +48,6 @@ class signUp extends React.Component {
                     confirmPassword: '' 
                 })
                 this.props.getUser();
-                this.props.history.push('/')
             }
 
         } catch (error) {

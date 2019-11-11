@@ -3,7 +3,7 @@ import Router from './Router';
 import axios from 'axios'
 import { connect } from 'react-redux';
 
-import setCurrentUser from './redux/user/user.actions'
+import { setCurrentUser } from './redux/user/user.actions'
 
 import './App.css';
 
@@ -21,6 +21,7 @@ class App extends React.Component {
       setCurrentUser(user)
     }
   }
+
   signOut = async () => {
     const { setCurrentUser } = this.props;
     const response = await axios.get('/logOut') 

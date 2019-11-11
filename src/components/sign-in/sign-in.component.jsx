@@ -34,7 +34,6 @@ class SignIn extends React.Component {
                     password: ''
                 })
                 this.props.getUser();
-                this.props.history.push('/')
             }
         } catch (error) {
             console.error(error);
