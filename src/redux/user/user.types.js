@@ -1,7 +1,5 @@
-const UserActionTypes = () => ({
+const UserActionTypes = ({
     SET_CURRENT_USER: 'SET_CURRENT_USER'
 });
 
-export {
-    UserActionTypes
-};
+export default UserActionTypes

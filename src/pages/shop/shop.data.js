@@ -1,8 +1,8 @@
-const shopData = [
+const SHOP_DATA = [
   {
     id: 1,
-    title: 'Games',
-    routeName: 'games',
+    title: 'Hats',
+    routeName: 'hats',
     items: [
       {
         id: 1,
@@ -62,8 +62,8 @@ const shopData = [
   },
   {
     id: 2,
-    title: 'Collectibles',
-    routeName: 'collectibles',
+    title: 'Sneakers',
+    routeName: 'sneakers',
     items: [
       {
         id: 10,
@@ -117,8 +117,8 @@ const shopData = [
   },
   {
     id: 3,
-    title: 'Clothing',
-    routeName: 'clothing',
+    title: 'Jackets',
+    routeName: 'jackets',
     items: [
       {
         id: 18,
@@ -154,8 +154,8 @@ const shopData = [
   },
   {
     id: 4,
-    title: 'Consoles',
-    routeName: 'consoles',
+    title: 'Womens',
+    routeName: 'womens',
     items: [
       {
         id: 23,
@@ -203,8 +203,8 @@ const shopData = [
   },
   {
     id: 5,
-    title: 'Computers',
-    routeName: 'computers',
+    title: 'Mens',
+    routeName: 'mens',
     items: [
       {
         id: 30,
@@ -246,4 +246,4 @@ const shopData = [
   }
 ];
 
-export default shopData;
+export default SHOP_DATA;
