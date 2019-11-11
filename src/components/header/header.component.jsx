@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
 
+import CartIcon from '../cart-icon/cart-icon.components'
+import CartDropdown from '../cart-dropdown/cart-dropdown.component'
+
 import './header.styles.scss'
 
-const Header = ({ currentUser, history, signOut}) => (
+const Header = ({ currentUser, history, signOut, hidden }) => (
 
     <div className='header'>
         <Link className='logo-container' to='/'>
@@ -33,14 +36,20 @@ const Header = ({ currentUser, history, signOut}) => (
                 <Link className='option' to='/signin'>
                     Sign in
                 </Link>
-                
             }
+            <CartIcon />
         </div>
+        {
+            hidden ? null :
+            <CartDropdown />
+        }
+        
     </div>
 )
 
-const mapStateToProps = (state) => ({
-    currentUser: state.user.currentUser
+const mapStateToProps = ({user: {currentUser}, cart: {hidden}}) => ({
+    currentUser,
+    hidden
 });
 
 export default connect(mapStateToProps)(withRouter(Header));
