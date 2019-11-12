@@ -55,4 +55,4 @@ const mapStateToProps = createStructuredSelector({
     hidden: selectCartHidden
 });
 
-export default connect(mapStateToProps)(withRouter(Header));
+export default withRouter(connect(mapStateToProps)(Header));
