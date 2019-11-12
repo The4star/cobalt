@@ -6,6 +6,7 @@ import { createStructuredSelector } from 'reselect'
 // pages
 import Homepage from './pages/homepage/Homepage.component'
 import ShopPage from './pages/shop/shop.component'
+import CheckoutPage from './pages/checkout/checkout.component'
 
 // selectors
 import {selectCurrentUser} from './redux/user/user.selectors'
@@ -20,6 +21,7 @@ const Router = ({currentUser, signOut, getUser}) => (
         <Switch>
             <Route exact path='/' component={Homepage} />
             <Route exact path='/shop' component={ShopPage} />
+            <Route exact path='/checkout' component={CheckoutPage} />
             <Route exact path='/signin' render={ () => currentUser ? <Redirect to='/' /> : <SignInAndSignUpPage getUser={getUser}/> }  />
         </Switch>
     </>
