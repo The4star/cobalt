@@ -20,7 +20,7 @@ const Router = ({currentUser, signOut, getUser}) => (
         <Header signOut={signOut}/>
         <Switch>
             <Route exact path='/' component={Homepage} />
-            <Route exact path='/shop' component={ShopPage} />
+            <Route path='/shop' render={({match}) => < ShopPage match={match} /> } />
             <Route exact path='/checkout' component={CheckoutPage} />
             <Route exact path='/signin' render={ () => currentUser ? <Redirect to='/' /> : <SignInAndSignUpPage getUser={getUser}/> }  />
         </Switch>
