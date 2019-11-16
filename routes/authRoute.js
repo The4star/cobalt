@@ -97,7 +97,11 @@ router.get( '/google/cobalt', (req, res, next) => {
         if (!user) { return res.status(404).send({success:false, message: info.message}) }
         req.logIn(user, function(err) {
           if (err) { return next(err); }
-          return res.redirect('http://localhost:3000/')
+          if (process.env.NODE_ENV !== 'production') {
+            return res.redirect('http://localhost:3000/')
+          } else {
+            return res.redirect('https://cobalt-shop.herokuapp.com/')  
+          }          
         });
       })(req, res, next);
 })
@@ -113,7 +117,11 @@ router.get('/facebook/cobalt', (req, res, next) => {
         if (!user) { return res.status(404).send({success:false, message: info.message}) }
         req.logIn(user, function(err) {
           if (err) { return next(err); }
-          return res.redirect('http://localhost:3000/')
+          if (process.env.NODE_ENV !== 'production') {
+            return res.redirect('http://localhost:3000/')
+          } else {
+            return res.redirect('https://cobalt-shop.herokuapp.com/')  
+          }  
         });
     })(req, res, next);
     
