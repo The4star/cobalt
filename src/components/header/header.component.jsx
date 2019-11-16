@@ -18,6 +18,13 @@ const Header = ({ currentUser, history, signOut, hidden }) => (
             C
         </Link>
         <div className='options'>
+            {
+                currentUser ?
+                <div className='user'>
+                    Welcome {currentUser.firstName}
+                </div>
+                : null
+            }
             <Link className='option' to='/shop'>
                 Shop
             </Link>

@@ -1,0 +1,29 @@
+[
+    {
+    "title": "Games",
+    "imageUrl": "img/games.jpg",
+    "linkUrl": "shop/games"
+    },
+    {
+    "title": "Collectibles",
+    "imageUrl": "img/collectibles.jpg",
+    "linkUrl": "shop/collectibles"
+    },
+    {
+    "title": "Clothing & Apparel",
+    "imageUrl": "img/clothing.jpg",
+    "linkUrl": "shop/clothing"
+    },
+    {
+    "title": "Consoles",
+    "imageUrl": "img/consoles.jpg",
+    "size": "large",
+    "linkUrl": "shop/consoles"
+    },
+    {
+    "title": "Computers",
+    "imageUrl": "img/computers.jpg",
+    "size": "large",
+    "linkUrl": "shop/computers"
+    }
+]

@@ -35,7 +35,11 @@ const PORT = process.env.PORT || 5000;
 
 // routes
 const authRoute = require('./routes/authRoute');
+const seedRoute = require('./routes/seedRoute');
+const dataRoute = require('./routes/dataRoute')
 
 app.use('/', authRoute);
+app.use('/seed', seedRoute);
+app.use('/data', dataRoute);
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`));
