@@ -1,7 +1,9 @@
 import React from 'react';
 import axios from 'axios'
 
+// components
 import MenuItem from '../menu-item/menu-item.component'
+import Spinner from '../../components/with-spinner/with-spinner.component'
 
 import './directory.styles.scss'
 
@@ -29,16 +31,17 @@ class Directory extends React.Component {
     render() {
         const { directories } = this.state; 
         console.log(directories)
-        return(
+        return directories ? (
             <div className='directory-menu'>
                 {
-                    directories ?
                     directories.map(({_id, ...otherdirectoryProps}) => {
                         return <MenuItem key={_id} {...otherdirectoryProps}/>
                     })
-                    : null
-                }
+                    
+                } 
             </div>       
+        ) : (
+            <Spinner />
         )
     }
 };
