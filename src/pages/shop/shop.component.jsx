@@ -5,6 +5,7 @@ import axios from 'axios';
 // components
 import CollectionsOverview from '../../components/collections-overview/collections-overview.component';
 import CollectionPage from '../collection/collection.component'
+import Spinner from '../../components/with-spinner/with-spinner.component'
 
 class ShopPage extends React.Component {
     constructor(props){
@@ -28,15 +29,17 @@ class ShopPage extends React.Component {
     render() {
         const { match } = this.props
         const { collections } = this.state
-        return(
-            collections ? 
+        return collections ? (
+            
             <div className='shop-page'>
                 <Switch>
                     <Route exact path={`${match.path}`} render={() => <CollectionsOverview collections={collections} />} />
                     <Route path={`${match.path}/:collectionName`} render={({match}) => <CollectionPage match={match} collections={collections} />} /> 
                 </Switch>
             </div> 
-            : null
+            
+        ) : (
+            <Spinner />
         )
     }
 };
