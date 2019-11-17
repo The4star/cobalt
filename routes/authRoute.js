@@ -100,7 +100,7 @@ router.get( '/google/cobalt', (req, res, next) => {
           if (process.env.NODE_ENV !== 'production') {
             return res.redirect('http://localhost:3000/')
           } else {
-            return res.redirect('https://cobalt-shop.herokuapp.com/')  
+            return res.redirect('https://cobalt-shop.netlify.com/')  
           }          
         });
       })(req, res, next);
@@ -120,7 +120,7 @@ router.get('/facebook/cobalt', (req, res, next) => {
           if (process.env.NODE_ENV !== 'production') {
             return res.redirect('http://localhost:3000/')
           } else {
-            return res.redirect('https://cobalt-shop.herokuapp.com/')  
+            return res.redirect('https://cobalt-shop.netlify.com/')  
           }  
         });
     })(req, res, next);
