@@ -18,7 +18,6 @@ const app = express();
 app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
-app.use(cors({credentials: true}))
 app.use(session({
     secret: process.env.SEEK,
     resave: true,
@@ -28,6 +27,8 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
+
+app.use(cors({credentials: true}))
 
 const { dbConnection, db, options } = require('./utils/database-utils');
 
