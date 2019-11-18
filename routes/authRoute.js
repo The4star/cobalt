@@ -63,6 +63,7 @@ router.get('/user', async (req, res, next) => {
         if (req.user) {
             const user = await User.findById(req.user._id);
             const { firstName, lastName, email } = user;
+            res.header("Access-Control-Allow-Credentials", "true");
             res.send({ 
                 loggedIn: true,
                 firstName, 
