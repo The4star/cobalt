@@ -24,11 +24,12 @@ app.use(session({
     saveUninitialized: true,
     store: new MongoStore({ mongooseConnection: mongoose.connection })
 }));
+app.use(cors({credentials: true}))
 
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use(cors({credentials: true}))
+
 
 const { dbConnection, db, options } = require('./utils/database-utils');
 
