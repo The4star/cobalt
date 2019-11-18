@@ -60,7 +60,6 @@ router.post('/register', async (req, res) => {
 router.get('/user', async (req, res, next) => {
 
     try {
-
         if (req.user) {
             const user = await User.findById(req.user._id);
             const { firstName, lastName, email } = user;
