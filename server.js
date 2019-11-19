@@ -24,7 +24,7 @@ app.use(session({
     saveUninitialized: true,
     store: new MongoStore({ mongooseConnection: mongoose.connection })
 }));
-app.use(cors({credentials: true}))
+app.use(cors({credentials: true, origin: 'http://localhost:3000/'}))
 
 app.use(passport.initialize());
 app.use(passport.session());
