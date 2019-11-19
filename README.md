@@ -9,11 +9,11 @@ https://github.com/The4Star
 |-----------|
 | Clinton Forster | 
 
-Deployed Site: coming
+Deployed Site: https://cobalt-shop.netlify.com/
 
 ## Purpose 
 
-Cobalt is a pop culture shop for video games, collectibles and clothing. It was created for fun to improve my skills within React and NodeJS
+Cobalt is a pop culture shop for video games, collectibles and clothing. It was created for fun to improve my skills within React and NodeJS.
 
 ## Technologies used
 
