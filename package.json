@@ -9,6 +9,7 @@
   "scripts": {
     "client": "cd ../frontend && npm start",
     "server": "nodemon server.js",
+    "test": "jest --watchAll",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "start": "node server.js"
   },
@@ -16,7 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "@types/jest": "^24.0.23",
+    "bcrypt": "^3.0.7",
     "connect-mongo": "^3.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -31,9 +33,16 @@
     "stripe": "^7.13.0"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
   },
   "directories": {
     "test": "test"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
