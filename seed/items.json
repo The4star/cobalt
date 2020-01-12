@@ -1,147 +1,147 @@
 [
     {
         "name": "Zelda - Links Awakening",
-        "imageUrl": "img/games/zla.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/zla.jpg",
         "price": 89
     },
     {
         "name": "Ghostbusters the Video Game Remastered",
-        "imageUrl": "img/games/gbr.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/gbr.jpg",
         "price": 89
     },
     {
         "name": "Sonic Mania",
-        "imageUrl": "img/games/smania.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/smania.jpg",
         "price": 45
     },
     {
         "name": "Watch Dogs 2",
-        "imageUrl": "img/games/wd2.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/wd2.jpeg",
         "price": 55
     },
     {
         "name": "Spiderman",
-        "imageUrl": "img/games/spiderman.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/spiderman.jpeg",
         "price": 69
     },
     {
         "name": "Red Dead Redemption 2",
-        "imageUrl": "img/games/rdr.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/rdr.jpg",
         "price": 78
     },
     {
         "name": "Star Wars - Jedi Fallen Order",
-        "imageUrl": "img/games/swfo.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/swfo.jpeg",
         "price": 99
     },
     {
         "name": "Halo Infinite",
-        "imageUrl": "img/games/hi.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/hi.jpg",
         "price": 80
     },
     {
         "name": "Goku Pop Vinyl Figurine",
-        "imageUrl": "img/collectibles/dbzp.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/dbzp.jpg",
         "price": 220
     },
     {
         "name": "Ghostbusters Trap Replica",
-        "imageUrl": "img/collectibles/gbt.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/gbt.jpg",
         "price": 280
     },
     {
         "name": "Game of Thrones Irone Throne",
-        "imageUrl": "img/collectibles/got.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/got.jpg",
         "price": 110
     },
     {
         "name": "John Wick Figurine",
-        "imageUrl": "img/collectibles/jw.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/jw.jpg",
         "price": 160
     },
     {
         "name": "Mjolnir Replica",
-        "imageUrl": "img/collectibles/mj.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/mj.jpg",
         "price": 160
     },
     {
         "name": "Storm Trooper Wearable Helmet",
-        "imageUrl": "img/collectibles/sth.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/sth.jpg",
         "price": 160
     },
     {
         "name": "Thanos Wearable Gauntlet Replica",
-        "imageUrl": "img/collectibles/tg.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/tg.jpg",
         "price": 190
     },
     {
         "name": "Toy Story Rex Figurine",
-        "imageUrl": "img/collectibles/tsr.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/tsr.jpg",
         "price": 50
     },
     {
         "name": "Star Wars Stormtrooper Shirt",
-        "imageUrl": "img/clothing/sws.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/sws.jpg",
         "price": 59
     },
     {
-        "name": "Suoer Mario Shirt",
-        "imageUrl": "img/clothing/sm.jpg",
+        "name": "Super Mario Shirt",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/sm.jpg",
         "price": 45
     },
     {
         "name": "Street Fighter Shirt",
-        "imageUrl": "img/clothing/sf.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/sf.jpg",
         "price": 45
     },
     {
         "name": "Kando Pants",
-        "imageUrl": "img/clothing/kando.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/kando.jpg",
         "price": 89
     },
     {
         "name": "Kando Shorts",
-        "imageUrl": "img/clothing/kandoshorts.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/kandoshorts.jpg",
         "price": 55
     },
     {
         "name": "Nintendo Switch",
-        "imageUrl": "img/consoles/switch.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/switch.jpg",
         "price": 299
     },
     {
         "name": "Playstation 4",
-        "imageUrl": "img/consoles/ps4.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/ps4.jpg",
         "price": 399
     },
     {
         "name": "XBOX One",
-        "imageUrl": "img/consoles/xboxone.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/xboxone.jpg",
         "price": 349
     },
     {
         "name": "Nintendo 2ds",
-        "imageUrl": "img/consoles/n2ds.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/n2ds.jpg",
         "price": 189
     },
     {
         "name": "Alienware 15 inch Gaming Laptop",
-        "imageUrl": "img/computers/aw15.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/aw15.jpg",
         "price": 2499
     },
     {
         "name": "Azus Zenbook Dual Screen Laptop",
-        "imageUrl": "img/computers/asuszen.jpeg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/asuszen.jpeg",
         "price": 1699
     },
     {
         "name": "Macbook Pro 15 inch",
-        "imageUrl": "img/computers/mac.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/mac.jpg",
         "price": 1799
     },
     {
         "name": "Macbook Air 13 inch",
-        "imageUrl": "img/computers/macair.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/macair.jpg",
         "price": 1399
     }
 ]
