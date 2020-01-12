@@ -26,7 +26,7 @@ app.use(session({
     saveUninitialized: true,
     store: new MongoStore({ mongooseConnection: mongoose.connection })
 }));
-app.use(cors({credentials: true, origin: process.env.CORS_URL}))
+app.use(cors({credentials: true, origin: process.env.NODE_ENV === 'production' ? process.env.CORS_URL : process.env.CORS_LOCAL}))
 
 app.use(passport.initialize());
 app.use(passport.session());

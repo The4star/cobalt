@@ -4,58 +4,58 @@
     "routeName": "games",
     "items": [ 
         {
-        "_id": "5dda04f828f07a54d6f5b3e0",
+        "_id": "5ddb088885297d1e011ce405",
         "name": "Zelda - Links Awakening",
-        "imageUrl": "img/games/zla.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/zla.jpg",
         "price": 89,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e1",
+        "_id": "5ddb088885297d1e011ce406",
         "name": "Ghostbusters the Video Game Remastered",
-        "imageUrl": "img/games/gbr.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/gbr.jpg",
         "price": 89,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e2",
+        "_id": "5ddb088885297d1e011ce407",
         "name": "Sonic Mania",
-        "imageUrl": "img/games/smania.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/smania.jpg",
         "price": 45,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e3",
+        "_id": "5ddb088885297d1e011ce408",
         "name": "Watch Dogs 2",
-        "imageUrl": "img/games/wd2.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/wd2.jpeg",
         "price": 55,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e4",
+        "_id": "5ddb088885297d1e011ce409",
         "name": "Spiderman",
-        "imageUrl": "img/games/spiderman.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/spiderman.jpeg",
         "price": 69,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e5",
+        "_id": "5ddb088885297d1e011ce40a",
         "name": "Red Dead Redemption 2",
-        "imageUrl": "img/games/rdr.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/rdr.jpg",
         "price": 78,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e6",
+        "_id": "5ddb088885297d1e011ce40b",
         "name": "Star Wars - Jedi Fallen Order",
-        "imageUrl": "img/games/swfo.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/swfo.jpeg",
         "price": 99,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e7",
+        "_id": "5ddb088885297d1e011ce40c",
         "name": "Halo Infinite",
-        "imageUrl": "img/games/hi.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/games/hi.jpg",
         "price": 80,
         "__v": 0
         }
@@ -66,58 +66,58 @@
     "routeName": "collectibles",
     "items": [
         {
-        "_id": "5dda04f828f07a54d6f5b3e8",
+        "_id": "5ddb088885297d1e011ce40d",
         "name": "Goku Pop Vinyl Figurine",
-        "imageUrl": "img/collectibles/dbzp.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/dbzp.jpg",
         "price": 220,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3e9",
+        "_id": "5ddb088885297d1e011ce40e",
         "name": "Ghostbusters Trap Replica",
-        "imageUrl": "img/collectibles/gbt.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/gbt.jpg",
         "price": 280,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3ea",
+        "_id": "5ddb088885297d1e011ce40f",
         "name": "Game of Thrones Irone Throne",
-        "imageUrl": "img/collectibles/got.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/got.jpg",
         "price": 110,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3eb",
+        "_id": "5ddb088885297d1e011ce410",
         "name": "John Wick Figurine",
-        "imageUrl": "img/collectibles/jw.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/jw.jpg",
         "price": 160,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3ec",
+        "_id": "5ddb088885297d1e011ce411",
         "name": "Mjolnir Replica",
-        "imageUrl": "img/collectibles/mj.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/mj.jpg",
         "price": 160,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3ed",
+        "_id": "5ddb088885297d1e011ce412",
         "name": "Storm Trooper Wearable Helmet",
-        "imageUrl": "img/collectibles/sth.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/sth.jpg",
         "price": 160,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3ee",
+        "_id": "5ddb088885297d1e011ce413",
         "name": "Thanos Wearable Gauntlet Replica",
-        "imageUrl": "img/collectibles/tg.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/tg.jpg",
         "price": 190,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3ef",
+        "_id": "5ddb088885297d1e011ce414",
         "name": "Toy Story Rex Figurine",
-        "imageUrl": "img/collectibles/tsr.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/collectibles/tsr.jpg",
         "price": 50,
         "__v": 0
         }
@@ -128,37 +128,37 @@
     "routeName": "clothing",
     "items": [ 
         {
-        "_id": "5dda04f828f07a54d6f5b3f0",
+        "_id": "5ddb088885297d1e011ce415",
         "name": "Star Wars Stormtrooper Shirt",
-        "imageUrl": "img/clothing/sws.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/sws.jpg",
         "price": 59,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3f1",
-        "name": "Suoer Mario Shirt",
-        "imageUrl": "img/clothing/sm.jpg",
+        "_id": "5ddb088885297d1e011ce416",
+        "name": "Super Mario Shirt",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/sm.jpg",
         "price": 45,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3f2",
+        "_id": "5ddb088885297d1e011ce417",
         "name": "Street Fighter Shirt",
-        "imageUrl": "img/clothing/sf.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/sf.jpg",
         "price": 45,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3f3",
+        "_id": "5ddb088885297d1e011ce418",
         "name": "Kando Pants",
-        "imageUrl": "img/clothing/kando.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/kando.jpg",
         "price": 89,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3f4",
+        "_id": "5ddb088885297d1e011ce419",
         "name": "Kando Shorts",
-        "imageUrl": "img/clothing/kandoshorts.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/clothing/kandoshorts.jpg",
         "price": 55,
         "__v": 0
         }
@@ -169,30 +169,30 @@
     "routeName": "consoles",
     "items": [
         {
-        "_id": "5dda04f828f07a54d6f5b3f5",
+        "_id": "5ddb088885297d1e011ce41a",
         "name": "Nintendo Switch",
-        "imageUrl": "img/consoles/switch.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/switch.jpg",
         "price": 299,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3f6",
+        "_id": "5ddb088885297d1e011ce41b",
         "name": "Playstation 4",
-        "imageUrl": "img/consoles/ps4.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/ps4.jpg",
         "price": 399,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3f7",
+        "_id": "5ddb088885297d1e011ce41c",
         "name": "XBOX One",
-        "imageUrl": "img/consoles/xboxone.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/xboxone.jpg",
         "price": 349,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3f8",
+        "_id": "5ddb088885297d1e011ce41d",
         "name": "Nintendo 2ds",
-        "imageUrl": "img/consoles/n2ds.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/consoles/n2ds.jpg",
         "price": 189,
         "__v": 0
         }
@@ -203,30 +203,30 @@
     "routeName": "computers",
     "items": [ 
         {
-        "_id": "5dda04f828f07a54d6f5b3f9",
+        "_id": "5ddb088885297d1e011ce41e",
         "name": "Alienware 15 inch Gaming Laptop",
-        "imageUrl": "img/computers/aw15.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/aw15.jpg",
         "price": 2499,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3fa",
+        "_id": "5ddb088885297d1e011ce41f",
         "name": "Azus Zenbook Dual Screen Laptop",
-        "imageUrl": "img/computers/asuszen.jpeg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/asuszen.jpeg",
         "price": 1699,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3fb",
+        "_id": "5ddb088885297d1e011ce420",
         "name": "Macbook Pro 15 inch",
-        "imageUrl": "img/computers/mac.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/mac.jpg",
         "price": 1799,
         "__v": 0
         },
         {
-        "_id": "5dda04f828f07a54d6f5b3fc",
+        "_id": "5ddb088885297d1e011ce421",
         "name": "Macbook Air 13 inch",
-        "imageUrl": "img/computers/macair.jpg",
+        "imageUrl": "https://cobalt-shop.netlify.com/img/computers/macair.jpg",
         "price": 1399,
         "__v": 0
         }
